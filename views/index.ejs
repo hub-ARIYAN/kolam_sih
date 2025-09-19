@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kolam Analyzer</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kolam Analyzer</h1>
+    <form action="/analyze" method="POST" enctype="multipart/form-data">
+      <label for="kolamImage">Select Kolam Image:</label>
+      <input type="file" id="kolamImage" name="kolamImage" accept="image/*" required>
+      <button type="submit">Analyze</button>
+    </form>
+  </div>
+</body>
+</html>

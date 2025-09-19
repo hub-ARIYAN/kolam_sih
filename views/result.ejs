@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kolam Analysis Result</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Analysis Result</h1>
+    <img src="<%= image %>" alt="Visualization" class="visualization">
+    <div class="result-links">
+      <a href="<%= analysisFile %>" download>Download analysis.txt</a>
+      <a href="<%= equationsFile %>" download>Download equations.txt</a>
+      <a href="/view-desmos" target="_blank">View on Desmos</a>
+    </div>
+    <a href="/" class="back-link">Analyze another image</a>
+  </div>
+</body>
+</html>
